@@ -18,8 +18,7 @@ html {
 @media only screen and (min-width: 42em) {
 
   img {
-
-    background-image: linear-gradient (rgba(73, 85, 98, 0), rgba(73, 85, 98, .60);
+      background-image: linear-gradient(to bottom, (rgba(73, 85, 98, 0), rgba(73, 85, 98, .8);
   }
 
   .banner {
@@ -38,4 +37,5 @@ html {
   .text {
     max-width: 25em;
   }
+
 }

@@ -14,28 +14,31 @@ html {
   background-color: #efefef;
 }
 
+.img-flex {
+  display: block;
+  width: 100%;
+}
 
 @media only screen and (min-width: 42em) {
-
-  img {
-      background-image: linear-gradient(to bottom, (rgba(73, 85, 98, 0), rgba(73, 85, 98, .8);
-  }
 
   .banner {
     position: relative;
     overflow: hidden;
     max-height: 500px;
+
   }
 
   .content {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 0%;
+    left: 5%;
     max-width: 50em;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .8));
   }
 
   .text {
     max-width: 25em;
+    width: 100%;
   }
-
 }

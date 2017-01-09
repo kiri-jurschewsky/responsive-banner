@@ -15,6 +15,27 @@ html {
 }
 
 
-img {
-  background-image: linear-gradient(rgba(73, 85, 98, 0));
+@media only screen and (min-width: 42em) {
+
+  img {
+
+    background-image: linear-gradient (rgba(73, 85, 98, 0), rgba(73, 85, 98, .60);
+  }
+
+  .banner {
+    position: relative;
+    overflow: hidden;
+    max-height: 500px;
+  }
+
+  .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 50em;
+  }
+
+  .text {
+    max-width: 25em;
+  }
 }

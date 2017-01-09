@@ -12,5 +12,9 @@ html {
 .btn:hover {
   display: inline-block;
   background-color: #efefef;
+}
 
+
+img {
+  background-image: linear-gradient(rgba(73, 85, 98, 0));
 }

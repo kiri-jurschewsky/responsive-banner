@@ -1,0 +1,16 @@
+html {
+  font-family: Georgia, serif;
+  background-color: #495562;
+  color: #fff;
+}
+
+.btn {
+  background-color: #495562;
+  border-color: #97a49b;
+}
+
+.btn:hover {
+  display: inline-block;
+  background-color: #efefef;
+
+}
